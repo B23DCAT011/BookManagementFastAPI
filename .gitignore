@@ -1,1 +1,4 @@
 app/core
+
+__pycache__/
+*.py[cod]
