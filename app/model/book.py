@@ -22,5 +22,5 @@ class Book(Base):
     updated_at = Column(DateTime(timezone=True),server_default=func.now(),onupdate=func.now(),nullable=False)
 
     #Relationship With Author,Category
-    authors = relationship("Author" , back_populates="books")
-    categories = relationship("Category", back_populates="books")
+    author = relationship("Author" , back_populates="books")
+    category = relationship("Category", back_populates="books")
