@@ -2,3 +2,5 @@ app/core
 
 __pycache__/
 *.py[cod]
+
+app/static/covers/*
